@@ -5,6 +5,7 @@ end
 def take_a_number(deli_line,person)
   if deli_line.size() == 0
     puts "Welcome, #{person}. You are number 1 in line."
+    deli_line << person
   else
   end
 end
