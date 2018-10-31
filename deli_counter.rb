@@ -7,6 +7,7 @@ def take_a_number(deli_line,person)
     puts "Welcome, #{person}. You are number 1 in line."
     deli_line << person
   else
+    puts "Welcome, #{person}. You are number 4 in line."
   end
 end
 
