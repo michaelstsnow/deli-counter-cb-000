@@ -1,5 +1,6 @@
 # Write your code here.
-def now_serving
+def now_serving(deli_line)
+
 end
 
 def take_a_number(deli_line,person)
