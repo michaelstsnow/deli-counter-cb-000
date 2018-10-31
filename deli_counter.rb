@@ -8,7 +8,7 @@ def take_a_number(deli_line,person)
     deli_line << person
   else
     position=deli_line.size()+1;
-    puts "Welcome, #{person}. You are number 4 in line."
+    puts "Welcome, #{person}. You are number #{position} in line."
   end
 end
 
