@@ -3,14 +3,10 @@ def now_serving
 end
 
 def take_a_number(deli_line,person)
-  #if deli_line.empty?
-
-    final_line=[];
-    final_line << person;
-  #else
-  #end
-  #final_line
-  return final_line
+  if deli_line.size() == 0 
+    puts "Welcome, #{person}. You are number 1 in line."
+  else
+  end
 end
 
 def line(people)
